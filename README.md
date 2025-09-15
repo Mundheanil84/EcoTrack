@@ -60,36 +60,7 @@ bash: npm start
 Build for production
 bash : npm run build
 
-3. 🏗️ Project Structure
-src/
-├── components/          # Reusable UI components
-│   ├── auth/           # Authentication components
-│   ├── dashboard/      # Dashboard-specific components
-│   ├── common/         # Shared components (Navbar, Footer)
-│   └── layout/         # Layout components
-├── pages/              # Main page components
-│   ├── DashboardOverview.js
-│   ├── CarbonEmissions.js
-│   ├── EnergyConsumption.js
-│   ├── TransportationImpact.js
-│   └── WasteManagement.js
-├── contexts/           # React Context for state management
-│   ├── AuthContext.js
-│   └── CarbonContext.js
-├── hooks/              # Custom React hooks
-│   └── useCarbonCalculator.js
-├── services/           # External API services
-│   ├── auth.js
-│   ├── carbonAPI.js
-│   └── weatherAPI.js
-├── data/               # Static data and configuration
-│   └── emissionFactors.js
-├── styles/             # CSS and styling files
-│   └── App.css
-└── utils/              # Utility functions
-    └── helpers.js
-
-4. 🎯 Key Implementation Details
+## 🎯 Key Implementation Details
 State Management
 The application uses React's Context API with useReducer for predictable state management:
 
@@ -97,7 +68,7 @@ AuthContext: Manages user authentication state (login, logout, user data)
 
 CarbonContext: Handles carbon activity logging and emission calculations
 
-5. Carbon Calculation Logic
+## Carbon Calculation Logic
 Emission calculations are based on scientifically-established factors:
 
 // Emission factors (kg CO2 per unit)
@@ -110,7 +81,7 @@ export const emissionFactors = {
   electricity: 0.5, // per kWh
 };
 
-6. 📸 Screenshots
+## 📸 Screenshots
 
 ### Login Screen
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/de9492d1-a255-44fe-9f34-bd580ce1f944" />
@@ -124,7 +95,7 @@ export const emissionFactors = {
 ### Transportation Page
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cb24de3e-5485-48f7-b491-a7af850c7740" />
 
-7. 🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 - Backend Integration: Node.js/Express server with PostgreSQL database
 - Real API Integration: Live carbon intensity data and weather APIs
