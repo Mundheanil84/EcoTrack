@@ -6,10 +6,13 @@
 
 A beautiful, responsive web application that helps individuals understand, track, and reduce their carbon footprint through intuitive data visualization and personalized insights.
 
-**Live Demo:** [https://ecotrack-demo.netlify.app](https://ecotrack-demo.netlify.app) *(Note: Replace with your actual deployment link)*
-
-![EcoTrack Dashboard](https://via.placeholder.com/800x400/22c55e/ffffff?text=EcoTrack+Dashboard+Preview) 
-*(Note: Replace with an actual screenshot of your project)*
+EcoTrack is a responsive web application that helps environmentally-conscious individuals 
+understand and reduce their carbon footprint. It solves the problem of climate anxiety by 
+turning abstract environmental impact into tangible, trackable data. Users can log daily 
+activities like travel and energy use, and the app visualizes their carbon emissions, suggests 
+reductions, and tracks progress over time. I built the frontend with React and styled it with 
+Tailwind CSS, managing state using the Context API and useReducer hook to keep the 
+bundle size small and performance high.
 
 ## 🚀 Features
 
