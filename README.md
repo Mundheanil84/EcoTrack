@@ -3,7 +3,6 @@
 [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.0-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
 [![React Router](https://img.shields.io/badge/React_Router-6.8.0-CA4245?logo=reactrouter)](https://reactrouter.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A beautiful, responsive web application that helps individuals understand, track, and reduce their carbon footprint through intuitive data visualization and personalized insights.
 
