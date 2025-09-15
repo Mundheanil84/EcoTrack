@@ -49,20 +49,18 @@ Follow these steps to set up the project locally:
    git clone https://github.com/your-username/ecotrack.git
    cd ecotrack
 2 .Install dependencies
-```bash
-npm install
+
+bash: npm install
 
 3. Start the development server
-``` bash
-npm start
+bash: npm start
 
 4 .The application will open at http://localhost:3000.
 
 Build for production
-``` bash
-npm run build
+bash : npm run build
 
-## 🏗️ Project Structure
+3. 🏗️ Project Structure
 src/
 ├── components/          # Reusable UI components
 │   ├── auth/           # Authentication components
@@ -91,7 +89,7 @@ src/
 └── utils/              # Utility functions
     └── helpers.js
 
-## 🎯 Key Implementation Details
+4. 🎯 Key Implementation Details
 State Management
 The application uses React's Context API with useReducer for predictable state management:
 
@@ -99,7 +97,7 @@ AuthContext: Manages user authentication state (login, logout, user data)
 
 CarbonContext: Handles carbon activity logging and emission calculations
 
-## Carbon Calculation Logic
+5. Carbon Calculation Logic
 Emission calculations are based on scientifically-established factors:
 
 // Emission factors (kg CO2 per unit)
@@ -112,7 +110,7 @@ export const emissionFactors = {
   electricity: 0.5, // per kWh
 };
 
-## 📸 Screenshots
+6. 📸 Screenshots
 
 ### Login Screen
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/de9492d1-a255-44fe-9f34-bd580ce1f944" />
@@ -126,7 +124,7 @@ export const emissionFactors = {
 ### Transportation Page
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cb24de3e-5485-48f7-b491-a7af850c7740" />
 
-## 🚀 Future Enhancements
+7. 🚀 Future Enhancements
 
 - Backend Integration: Node.js/Express server with PostgreSQL database
 - Real API Integration: Live carbon intensity data and weather APIs
