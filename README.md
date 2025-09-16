@@ -14,6 +14,8 @@ reductions, and tracks progress over time. I built the frontend with React and s
 Tailwind CSS, managing state using the Context API and useReducer hook to keep the 
 bundle size small and performance high.
 
+Demo: https://ecotrack-blue-zeta.vercel.app/
+
 ## 🚀 Features
 
 - **📊 Multi-Page Dashboard:** Comprehensive overview with dedicated sections for different environmental impacts.
